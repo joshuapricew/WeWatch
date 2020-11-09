@@ -41,7 +41,7 @@ namespace WeWatch
         }
 
         /// <summary>
-        /// Write message to the console at a specified LogType. Respects previously set program wide logLevel.
+        /// Write a message to the console at a specified LogType. Respects previously set program wide logLevel.
         /// </summary>
         /// <param name="message">String to write to console.</param>
         /// <param name="logType">Specifies severity of the log</param>
