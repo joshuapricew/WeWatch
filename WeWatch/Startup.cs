@@ -51,7 +51,6 @@ namespace WeWatch
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                Log.WriteLine("Test of the emergency log type.", Log.LogType.Emerg);
             });
         }
     }
