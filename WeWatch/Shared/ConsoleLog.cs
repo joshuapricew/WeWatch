@@ -54,35 +54,35 @@ namespace WeWatch
             {
                 case LogType.Emerg:
                     if (LogLevel >= 0)
-                        Console.WriteLine("Emergency: ", message);
+                        Console.WriteLine("Emergency: {0}", message);
                     break;
                 case LogType.Alert:
                     if (LogLevel >= 1)
-                        Console.WriteLine("Alert: ", message);
+                        Console.WriteLine("Alert: {0}", message);
                     break;
                 case LogType.Crit:
                     if (LogLevel >= 2)
-                        Console.WriteLine("Critical: ", message);
+                        Console.WriteLine("Critical: {0}", message);
                     break;
                 case LogType.Err:
                     if (LogLevel >= 3)
-                        Console.WriteLine("Error: ", message);
+                        Console.WriteLine("Error: {0}", message);
                     break;
                 case LogType.Warning:
                     if (LogLevel >= 4)
-                        Console.WriteLine("Warning: ", message);
+                        Console.WriteLine("Warning: {0}", message);
                     break;
                 case LogType.Notice:
                     if (LogLevel >= 5)
-                        Console.WriteLine("Notice: ", message);
+                        Console.WriteLine("Notice: {0}", message);
                     break;
                 case LogType.Info:
                     if (LogLevel >= 6)
-                        Console.WriteLine("Info: ", message);
+                        Console.WriteLine("Info: {0}", message);
                     break;
                 case LogType.Debug:
                     if (LogLevel >= 7)
-                        Console.WriteLine("Debug: ", message);
+                        Console.WriteLine("Debug: {0}", message);
                     break;
                 default:
                     throw new ArgumentOutOfRangeException("LogType invalid.");
