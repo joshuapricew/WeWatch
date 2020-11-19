@@ -25,7 +25,7 @@ namespace WeWatch
                     RoomGuidBytes[1],
                     RoomGuidBytes[2]
                 };
-                RoomId = Convert.ToBase64String(RoomGuidBytes);
+                RoomId = Convert.ToBase64String(RoomIdBytes);
                 /* If the base64 contains either a + or a /, try again. */
             } while (Regex.IsMatch(RoomId, "[+/]"));
             return RoomId;
