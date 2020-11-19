@@ -8,7 +8,7 @@ namespace WeWatch
         /// <summary>
         /// Generates and returns a unique 4 character base64 string.
         /// </summary>
-        /// <returns>4 character base64 string</returns>
+        /// <returns>A 4 character base64 string</returns>
         // TODO: Add parameter which takes list of all RoomIds currently
         // being tracked by the program so that this class can check that 
         // it is generating a fully unique Id for this server.
