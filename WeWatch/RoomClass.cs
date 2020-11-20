@@ -6,6 +6,8 @@ namespace WeWatch
 {
     public class Room
     {
+        public readonly string RoomId = GenerateRoomID();
+
         private List<Client> Clients = new List<Client>();
 
         public Room(Client hostClient)
