@@ -12,7 +12,7 @@ namespace WeWatch
         // TODO: Add parameter which takes list of all RoomIds currently
         // being tracked by the program so that this class can check that 
         // it is generating a fully unique Id for this server.
-        static public string GenerateRoomID()
+        static private string GenerateRoomID()
         {
             string RoomId;
             do {
