@@ -1,10 +1,18 @@
 using System;
 using System.Text.RegularExpressions;
+using System.Collections.Generic;
 
 namespace WeWatch
 {
     public class Room
     {
+        private List<Client> Clients = new List<Client>();
+
+        public Room(Client hostClient)
+        {
+            Clients.Add(hostClient);
+        }
+        
         /// <summary>
         /// Generates and returns a unique 4 character base64 string.
         /// </summary>
