@@ -38,10 +38,12 @@ namespace WeWatch
             {
                 app.UseExceptionHandler("/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-                app.UseHsts();
+                // See note about HTTPS below.
+                //app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            // TODO: Add a LetsEncrypt cert, but not for now.
+            //app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
