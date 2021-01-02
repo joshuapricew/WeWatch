@@ -44,7 +44,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/WeWatch.csproj",
+                "${workspaceFolder}/WeWatch/WeWatch.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -56,7 +56,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/WeWatch.csproj",
+                "${workspaceFolder}/WeWatch/WeWatch.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -69,7 +69,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/WeWatch.csproj",
+                "${workspaceFolder}/WeWatch/WeWatch.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
